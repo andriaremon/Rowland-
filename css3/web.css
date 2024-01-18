@@ -1,0 +1,198 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  body {
+    background: rgb(10, 10, 10);
+    margin: 0;
+    scroll-behavior: smooth;
+  
+    color: rgb(10, 10, 10);
+  }
+  .container {
+    width: 90%;
+    margin: auto;
+    scroll-behavior: smooth;
+  }
+  .navbar {
+    background-color: rgba(10, 10, 10, 0.185);
+    margin: 0px 10px 10px 10px;
+  }
+  .navbar .brand {
+    float: left;
+    width: 15%;
+    text-transform: uppercase;
+    color: rgb(216, 25, 25);
+    font-family: "Cookie", cursive;
+    padding: 10px 10px;
+  }
+  .navbar .brand:hover {
+    background-color: rgba(238, 238, 241, 0.205);
+  }
+  .navbar .brand h2:hover {
+    color: rgb(17, 188, 240);
+  }
+  .navbar .logo {
+    float: left;
+  }
+  
+  .navbar .section {
+    float: left;
+    width: 70%;
+    margin-top: 15px;
+  }
+  
+  ul {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar .section li {
+    display: inline-block;
+    padding: 15px 15px 15px;
+    margin: 5px;
+    text-transform: capitalize;
+    border-bottom: 2px solid transparent;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .navbar .section li:hover {
+    border-bottom: 2px solid turquoise;
+  }
+  .navbar .section li a {
+    color: rgb(236, 227, 227);
+    scroll-behavior: smooth;
+    text-decoration: none;
+  }
+  .navbar .section li a:hover {
+    color: turquoise;
+  }
+  .clearfix {
+    clear: both;
+  }
+  .navbar img {
+    border-radius: 50%;
+    scroll-snap-type: initial;
+    size: 30;
+  }
+  .iam {
+    border-bottom: 5px solid #cc1;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 0;
+    display: inline-block;
+    overflow: hidden;
+    color: white;
+  }
+  .landing__container {
+    padding: 1em;
+    text-align: left;
+  }
+  
+  @media only screen and (min-width: 35em) {
+    .landing__container {
+      max-width: 50em;
+      padding: 4em;
+    }
+  }
+  section {
+    padding-left: 70px;
+    margin: 20px;
+  }
+  section:hover {
+    background: rgb(136, 203, 171);
+    background: linear-gradient(
+      0deg,
+      rgba(136, 203, 171, 1) 0%,
+      rgba(0, 13, 60, 1) 100%
+    );
+  }
+  
+  .andria h2 {
+    border-bottom: 1px solid #cc1;
+    font-family: "Oxygen", Sans-Serif;
+    font-size: 3em;
+    color: rgb(253, 252, 252);
+    font-size: 3em;
+    margin: 2em 1rem;
+  }
+  
+  .footer {
+    background-color: #232323;
+    color: #eee;
+    padding: 40px;
+    overflow: hidden;
+  }
+  .footer h2 {
+    -webkit-column-span: all; /* Chrome, Safari, Opera */
+    column-span: all;
+  }
+  .footer {
+    background-color: #232323;
+    color: #eee;
+    padding: 40px;
+    overflow: hidden;
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+  }
+  .footer h2 {
+    -webkit-column-span: all; /* Chrome, Safari, Opera */
+    column-span: all;
+  }
+  
+  .footer .col {
+    width: 25%;
+    float: right;
+    padding: 0.9em;
+  
+    border-right: 1px solid #cc1;
+  }
+  .footer .cols {
+    width: 25%;
+    float: right;
+    padding: 0.9em;
+  
+    border-right: 1px solid #cc1;
+  }
+  .footer .cola {
+    width: 25%;
+    float: right;
+    padding: 0.9em;
+  
+    border-right: 1px solid #cc1;
+  }
+  .footer .coll {
+    width: 25%;
+    float: right;
+    padding: 0.9em;
+  }
+  
+  
+  .footer h2 {
+    text-align: center;
+  }
+  #section4 img {
+    size: 200%;
+  }
+  .navbar .show {
+    padding: 10px 10px 13px;
+  }
+  
+  button {
+    background-color: rgba(10, 10, 10, 0.185);
+    padding: 20px;
+    width: 100px;
+    height: 80px;
+    color: white;
+    text-transform: capitalize;
+    padding: 2px 20px 0px 15px;
+    border: 1px solid rgb(250, 245, 245);
+    float: left;
+    font-weight: bold;
+    margin: 0px;
+    font-size: 20px;
+  }
+  
